@@ -21,6 +21,8 @@ void setup ()
 }
 void loop () {
   DateTime i = rtc.now();
+  //char text[] = "";
+  //String data;
   ///////////////////////////////////Month
   if(i.month() < 10){
     Serial.print("0"+String(i.month()));
